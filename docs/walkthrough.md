@@ -14,18 +14,20 @@ the-time-is-not-real/
 ├── docs/                      # 專案文件目錄
 │   ├── research_directions.md # 研究方向規劃
 │   ├── implementation_plan.md # 實作計畫
-│   └── walkthrough.md         # 實作總結 (本檔案)
-├── src/
-│   ├── index.css              # 🌌 基礎設計系統 (霓虹色系與毛玻璃工具類)
-│   ├── App.tsx                # 🎛️ 狀態調度中心 (統合時間與頻率，連結各組件與對照表)
-│   └── components/
-│       ├── TimeReel.tsx       # 📽️ 3D 塊狀宇宙膠卷 (React Three Fiber 渲染)
-│       ├── TuningKnob.tsx     # 🧠 Orch-OR 意識量子調頻旋鈕 (拖曳/觸控控制)
-│       ├── Oscilloscope.tsx   # ⚡ 量子波示波器 (隨頻率與狀態即時改變 Canvas 波幅)
-│       ├── NonLocalityBridge.tsx # 🔗 ER = EPR 空間折疊與蟲洞糾纏動畫 (SVG)
-│       └── QuotePanel.tsx     # 🕯️ 永恆主義心靈金句面板 (動態對齊時空與意識狀態)
-├── package.json               # 安裝 lucide-react, three, react-three, framer-motion 等
-└── vite.config.ts             # Vite 配置
+│   └── walkthrough.md         # 實作總結 (本檔案副本)
+├── simulator/                 # 🌌 互動模擬器前端專案目錄
+│   ├── index.html             # 進入網頁
+│   ├── package.json           # 前端套件依賴配置
+│   ├── vite.config.ts         # Vite 建置配置
+│   ├── src/
+│   │   ├── index.css          # 設計系統 (霓虹色系與毛玻璃工具類)
+│   │   ├── App.tsx            # 🎛️ 狀態調度中心 (統合時間與頻率)
+│   │   └── components/
+│   │       ├── TimeReel.tsx       # 📽️ 3D 塊狀宇宙膠卷 (React Three Fiber 渲染)
+│   │       ├── TuningKnob.tsx     # 🧠 Orch-OR 意識量子調頻旋鈕 (拖曳/觸控控制)
+│   │       ├── Oscilloscope.tsx   # ⚡ 量子波示波器 (動態波形)
+│   │       ├── NonLocalityBridge.tsx # 🔗 ER = EPR 空間折疊與蟲洞糾纏動畫
+│   │       └── QuotePanel.tsx     # 🕯️ 永恆主義心靈金句面板
 ```
 
 ---
